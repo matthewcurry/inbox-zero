@@ -6,7 +6,7 @@ set timefmt "%m/%d"
 set xlabel "Date"
 set xrange ["11/09":"12/31"]
 
-set yrange [0:2500]
+set yrange [0:2550]
 set ylabel "Number of Emails"
 
 set title "Progress Toward Inbox Zero"

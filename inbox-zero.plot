@@ -2,9 +2,10 @@ set terminal png
 set output "inbox-zero.png"
 
 set xdata time
-set timefmt "%m/%d"
+set timefmt "%m/%d/%Y"
 set xlabel "Date"
-set xrange ["11/09":"12/31"]
+set xtics rotate
+#set xrange ["11/07":"12/30"]
 
 set yrange [0:3000]
 set ylabel "Number of Emails"

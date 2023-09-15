@@ -12,4 +12,6 @@ set ylabel "Number of Emails"
 
 set title "Progress Toward Inbox Zero"
 
-plot "inbox-zero.dat" using 1:2 with linespoints title "End-of-day total"
+plot "inbox-zero.dat" using 1:2 with linespoints title "End-of-day total", \
+     "inbox-zero-10p.dat" using 1:2 with linespoints title "End-of-day total, 10% rule"
+
